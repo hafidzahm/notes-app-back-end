@@ -77,7 +77,7 @@ const editNoteByIdHandler = (request, h) => {
     };
 
     const response = h.response({
-      status: 'status',
+      status: 'success',
       message: 'Catatan berhasil diperbarui',
     });
     response.code(200);
